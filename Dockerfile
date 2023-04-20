@@ -1,4 +1,4 @@
-FROM linuxserver/code-server:4.4.0
+FROM linuxserver/code-server:4.11.0
 RUN apt-get update \
     && apt-get install -y libsqlite3-dev wget curl vim\
     && apt-get install -y python3-dev python3-pip \
