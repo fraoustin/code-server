@@ -13,7 +13,7 @@ RUN apt-get update \
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 RUN pip3 install --upgrade pip \
-    && pip3 install python-language-server flake8 autopep8 flask colorconsole pylint requests httpie Flask-Login Flask-SQLAlchemy
+    && pip3 install python-language-server flake8 autopep8 flask colorconsole pylint requests httpie Flask-Login Flask-SQLAlchemy click
 
 # install  pythonrc and PYTHONSTARTUP
 COPY bashrc /config/.bashrc
